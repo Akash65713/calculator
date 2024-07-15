@@ -1,0 +1,61 @@
+#calculator{
+font-family: Arial, sans-serif;
+background-color:transparent;
+
+max-width: 500px;
+overflow: hidden;
+background-color: transparent;
+
+}
+#Display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+    color: whitesmoke;
+   
+}
+#keys{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px;
+padding: 25px;
+backdrop-filter: blur(20px);
+}
+button{
+width: 100px;
+height: 100px;
+border-radius: 0px;
+border: none;
+background-color: transparent;
+color: black;
+font-size: 3rem;
+font-weight: bold;
+cursor:pointer;
+opacity: 0px;
+
+
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url(https://images.wallpapersden.com/image/wxl-anime-naruto-4k-sasuke-uchiha_88070.jpg);
+}
+button:hover{
+    background-color: transparent;
+}
+button:active{
+    background-color:transparent;
+}
+.operator-btn{
+    background-color:transparent;
+
+}
+.operator-btn:hover{
+    background-color:transparent;
+}
